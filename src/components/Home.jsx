@@ -35,7 +35,7 @@ const Home = () => {
             </div>
             <p className='text-[#8892b0] py-4 max-w-[700px]'>
             I'm a fourth year student at the University of New Mexico.  
-            Currently, I’m focused on building responsive full-stack web applications.
+            Currently, I’m finishing up my bachelors degree in computer science.
             </p>
             <div>
                 <Link to="work" smooth={true} duration={500}>
