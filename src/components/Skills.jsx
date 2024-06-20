@@ -4,11 +4,10 @@ import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import Node from '../assets/node.png';
 import Java from '../assets/java.png';
-import Tailwind from '../assets/tailwind.png';
 import Python from '../assets/python.png';
 import Cpp from '../assets/cpp.png';
 import Go from '../assets/go.png';
-
+import Unity from '../assets/unity.png';
 
 const Skills = () => {
   return (
@@ -34,6 +33,10 @@ const Skills = () => {
                     <p className='my-4'>C++</p>
                 </div>
                 <div className='shadow-md shadow-[#000000] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={Unity} alt='HTML Icon'/>
+                    <p className='my-4'>Unity Engine</p>
+                </div>
+                <div className='shadow-md shadow-[#000000] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={ReactImg} alt='HTML Icon'/>
                     <p className='my-4'>React JS</p>
                 </div>
@@ -48,10 +51,6 @@ const Skills = () => {
                 <div className='shadow-md shadow-[#000000] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={Node} alt='HTML Icon'/>
                     <p className='my-4'>Node JS</p>
-                </div>
-                <div className='shadow-md shadow-[#000000] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={Tailwind} alt='HTML Icon'/>
-                    <p className='my-4'>Tailwind</p>
                 </div>
             </div>
         </div>
