@@ -13,7 +13,7 @@ const Home = () => {
     <div name="home" className="w-full h-screen bg-[#121212]">
         { /* Container */}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
-            <p className='text-2xl text-[#BB86FC]'>Hi, my name is</p>
+            <p className='text-2xl text-[#BB86FC]'>Hello, my name is</p>
             <h1 className='pb-4 text-5xl sm:text-7xl font-bold text-[#ccd6f6]'>Luke McDougall</h1>
             <div className='text-2xl sm:text-4xl font-bold text-[#8892b0]'>
             {" "}
@@ -21,7 +21,6 @@ const Home = () => {
           options={{
             strings: [
               "I'm a Software Engineer 🔧",
-              "I'm a Student at UNM 📚",
               "I'm a Fullstack Developer 💻",
               "I'm a Problem Solver 🧩"
             ],
@@ -34,8 +33,8 @@ const Home = () => {
         />
             </div>
             <p className='text-[#8892b0] py-4 max-w-[700px]'>
-            I'm a fourth year student at the University of New Mexico.  
-            Currently, I’m finishing up my bachelors degree in computer science.
+            I have a Bachelors degree in Computer Science.
+            Currently, I’m working as a software engineer for Target.
             </p>
             <div>
                 <Link to="work" smooth={true} duration={500}>

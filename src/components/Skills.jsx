@@ -1,13 +1,13 @@
 import React from 'react'
 
-import HTML from '../assets/html.png'
-import CSS from '../assets/css.png';
 import JavaScript from '../assets/javascript.png';
 import ReactImg from '../assets/react.png';
 import Node from '../assets/node.png';
 import Java from '../assets/java.png';
 import Tailwind from '../assets/tailwind.png';
 import Python from '../assets/python.png';
+import Cpp from '../assets/cpp.png';
+import Go from '../assets/go.png';
 
 
 const Skills = () => {
@@ -30,20 +30,20 @@ const Skills = () => {
                     <p className='my-4'>Python</p>
                 </div>
                 <div className='shadow-md shadow-[#000000] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={JavaScript} alt='HTML Icon'/>
-                    <p className='my-4'>JavaScript</p>
-                </div>
-                <div className='shadow-md shadow-[#000000] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={HTML} alt='HTML Icon'/>
-                    <p className='my-4'>HTML</p>
-                </div>
-                <div className='shadow-md shadow-[#000000] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={CSS} alt='HTML Icon'/>
-                    <p className='my-4'>CSS</p>
+                    <img className='w-20 mx-auto' src={Cpp} alt='HTML Icon'/>
+                    <p className='my-4'>C++</p>
                 </div>
                 <div className='shadow-md shadow-[#000000] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={ReactImg} alt='HTML Icon'/>
                     <p className='my-4'>React JS</p>
+                </div>
+                <div className='shadow-md shadow-[#000000] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={Go} alt='HTML Icon'/>
+                    <p className='my-4'>Go</p>
+                </div>
+                <div className='shadow-md shadow-[#000000] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={JavaScript} alt='HTML Icon'/>
+                    <p className='my-4'>JavaScript</p>
                 </div>
                 <div className='shadow-md shadow-[#000000] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={Node} alt='HTML Icon'/>
